@@ -1,2 +1,2 @@
 # 3D.ANY
-Priyecto pagina de 3d
+Proyecto pagina de 3d
