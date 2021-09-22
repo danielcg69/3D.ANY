@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,19 +8,43 @@
     <link rel="stylesheet" href="../css/style.css">
     <title>Impresiones</title>
 </head>
+
 <body>
     <header>
         <nav>
-            
+
             <a href="../Index.html">Inicio</a>
-            <a href="../pages/Impresiones.html">Impresiones</a>
+            <a href="../pages/Impresiones.html">Pedidos</a>
             <a href="../pages/diseño.html">Diseño</a>
             <a href="../pages/contacto.html">Contacto</a>
             <a href="../pages/ubicacion.html">Donde Estamos</a>
-            
+
         </nav>
         Diseño e Impresion 3D
     </header>
-    
+
+    <br>
+
+    <form action="../pages/Impresiones.html" method="POST">
+        <label for="Part">Elija Opcion</label>
+        <select name="Part" id="Part">
+            <option value="Cowl">Cowl</option>
+            <option value="CowlB">Cowl-Bicolor</option>
+            <option value="Tren">Tren Aterrizaje</option>
+        </select>
+        <br>
+        <br>
+        <br>
+        <br>
+
+        <textarea id="obs" name="obs" rows="4" cols="50">
+            observaciones / comentarios
+            </textarea>
+        <br>
+        <input type="submit" value="Pedir">
+    </form>
+
+
 </body>
+
 </html>

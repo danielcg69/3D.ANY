@@ -18,8 +18,30 @@ nav{
 }
 
 a {
-    background-color: blue;
+    background-color: rgb(0, 140, 255);
     padding: 5px;
     border-radius: 5px;
     text-decoration: none;
+    color: black;
+}
+
+form {
+    background-color: darkgrey;
+    text-align:  center;
+    padding: 10px;
+    
+
+
+}
+
+
+label, select, textarea {
+    background-color: darkgrey;
+    color:rgb(9, 8, 107);
+    
+}
+
+input {
+    background-color: darkred;
+    color: whitesmoke;
 }
